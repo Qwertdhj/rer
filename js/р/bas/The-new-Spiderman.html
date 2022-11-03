@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body
+        {
+            background: violet;
+        }
+        .navigation
+        {
+            position: fixed;
+    inset: 0;
+    width: 0;
+    background: rgba(255, 255, 255, 0.492);
+    transition: 0.5s;   
+        }
+        .navigation .menuToggle
+        {
+            position:absolute;
+            top: 0;
+            left: 0;
+            height: 60px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 0 23px;
+        }
+        .navigation .menuToggle .io
+        {
+            content: '';
+    background: white;
+    position: absolute;
+    transform: translateY(0);
+    left: 0;
+    font-size: 30px;
+    height: 60px;
+    top: 87px;
+    transition: 0.5s;
+    border-radius: 0 10px 10px 0;
+        }
+
+        .navigation.open
+        {
+            width: 650px;
+            z-index: 9;
+        }
+        .navigation.open .menuToggle .io
+        {
+            transform: translateY(0px) rotate(180deg);
+    margin-left: 650px;
+    border-radius: 10px 0 0 10px;
+        }
+        .blac
+        {width: 0;}
+        .blac.open 
+        {
+            width: 100%;
+            height: 100%;
+            transition: 0.5s;
+    position: absolute;
+    background: black;
+    opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="navigation">
+        <div class="menuToggle"><ion-icon class="io" name="chevron-forward-outline"></ion-icon></div>
+    </div>
+    <div class="blac"></div>
+    <script>
+        const menuToggle = document.querySelector('.menuToggle');
+        const navigation = document.querySelector('.navigation');
+        const blac = document.querySelector('.blac');
+        menuToggle.onclick = function(){
+            navigation.classList.toggle('open')
+            blac.classList.toggle('open')
+        }
+    </script>
+</body>
+</html>

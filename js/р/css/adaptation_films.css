@@ -1,0 +1,215 @@
+@media (max-width: 480px)
+{
+    .font img
+    {
+        height: 45%;
+        border-radius: 15px;
+    }
+    .menu, .losox_logo_L, .losox_logo_O, .losox_logo_S, .losox_logo_O2, .losox_logo_X, .box_photo_2, .box_photo_3, .box, .box_2, .box_3 { display: none; }
+    .name 
+    {
+        width: 100%;
+        top: 205px;
+        font-size: 28px;
+    }
+    .name_angl
+    {
+        top: 240px;
+        font-size: 17px;
+        width: 100%;
+    }
+    .wrapper {
+        margin: 0;
+        border-radius: 5px;
+        box-shadow: 0px 1px 5px 3px rgb(0 0 0 / 15%);
+        position: relative;
+        background: #0E0E0E;
+        z-index: 9;
+        width: 79%;
+        top: -153px;
+    }
+    body
+    {
+        background: #151515;
+    }
+    .play
+    {
+        top: -50px;
+    }
+    .obi
+    {
+        width: 86%;
+        left: 6%;
+        top: 440px;
+        font-size: 14px;
+        color: #b1b1b1;
+    }
+    .container
+    {
+        height: 0;
+    }
+    .navigation.open
+    {
+        width: 100%;
+    }
+    .show .results
+    {
+        width: 136%;
+        /* height: 100%; */
+        left: -45px;
+        max-height: 578px;
+        position: relative;
+    }
+    .navigation.open .menuToggle .io {
+        transform: translateY(0px) rotate(180deg);
+        margin-left: 345px;
+        border-radius: 0 10px 10px 0;
+    }
+    .logo-twitter ion-icon {
+        position: absolute;
+        color: white;
+        font-size: 30px;
+        margin-top: 47%;
+        transition: 0.3s;
+        left: 90%;
+     }
+     .logo-facebook ion-icon {
+        position: absolute;
+        color: white;
+        font-size: 30px;
+        margin-top: 25%;
+        transition: 0.3s;
+        left: 90%;
+     }
+     .vk ion-icon {
+        position: absolute;
+        color: white;
+        font-size: 30px;
+        transition: 0.3s;
+        margin-top: 15%;
+        left: 90%;
+     }
+     .logo-instagram ion-icon {
+        position: absolute;
+        color: white;
+        font-size: 30px;
+        margin-top: 36%;
+        transition: 0.3s;
+        left: 90%;
+     }
+     .navigation ul li a .text0 {
+        position: absolute;
+        height: 60px;
+        font-size: 16px;
+        display: none;
+        font-weight: bold;
+        top: 275px;
+        color: white;
+        right: 25px;
+        opacity: 0;
+        transition: 0.4s;
+    }
+    .navigation ul li a .text {
+        position: absolute;
+        height: 60px;
+        display: none;
+        top: 275px;
+        right: 65px;
+        color: #9F9F9F;
+        font-size: 14px;
+        opacity: 0;
+        transition: 0.4s;
+    }
+    .navigation ul li a .text_2 {
+        right: 65px;
+        font-size: 14px;
+    }
+    .navigation ul li a .text_3 {
+        right: 65px;
+        font-size: 14px;
+    }
+    .navigation ul li a .text_4 {
+        right: 65px;
+        font-size: 14px;
+    }
+    .navigation ul li a .text_5 {
+        right: 65px;
+        font-size: 14px;
+    }
+    .navigation ul li a .text_6 {
+        right: 65px;
+        font-size: 14px;
+    }
+    .navigation ul li a .text_rev {
+        position: absolute;
+        height: 60px;
+        display: none;
+        top: -85px;
+        right: 0px;
+        font-size: 13px;
+        color: #9F9F9F;
+        /* font-size: 17px; */
+        opacity: 0;
+        transition: 0.4s;
+    }
+    .navigation ul li a .text_rev_2
+    {
+        right: 0px;
+        font-size: 13px
+    }
+    .navigation ul li a .text_rev_3
+    {
+        right: -15px;
+        font-size: 13px
+    }
+    .navigation ul li a .text_rev_4
+    {
+        right: -15px;
+        font-size: 13px
+    }
+    .navigation ul li a .text_rev_5
+    {
+        right: -15px;
+        font-size: 13px
+    }
+    .navigation ul li a .text_rev_6 
+    {
+        right: 0;
+        font-size: 13px
+    }
+    .search_img 
+    {
+        width: 60px;
+        border-radius: 10px;
+    }
+    .search_name
+    {
+        position: relative;
+        top: -94px;
+        left: 89px;
+        font-size: 16px;
+        width: 77%;
+    }
+    .navigation .menuToggle .io
+    {
+        top: 10px;
+    }
+    .box_photo_1 img {
+        width: 265px;
+        height: 160px;
+        margin-top: 5px;
+        /* top: 5px; */
+        position: static;
+        border-radius: 10px;
+    }
+    .box_photo_1 {
+        margin-left: 25px;
+        position: static;
+        width: 275px;
+        background: white;
+        height: 170px;
+        transition: 0.3s;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+}

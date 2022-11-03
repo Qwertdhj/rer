@@ -1,0 +1,86 @@
+
+  button{
+    display: block;
+    top: 13px;
+    position: fixed;
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    z-index: 59;
+    background: transparent;
+    /* border: 1px solid #fff; */
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    right: 1322px;
+  }
+  
+  button:hover{
+     transform: scale(1.2);
+  }
+  
+  .mymodal{
+    display:none;
+  }
+  
+  .mymodal .overlay{
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    z-index: 60;
+    height:100%;
+    background: rgba(0,0,0,0.7);
+  }
+  
+  .mymodal .content{
+    display: block;
+    margin: 50px auto;
+    width: 100%;
+    min-height:100%;
+    background: #0e0e0e;
+    top: -50px;
+    padding: 20px;
+    color: #333333;
+    position: relative;
+}
+  
+  .mymodal .close{
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    transition: .5s;
+    cursor: pointer;
+    color: white;
+    font-size: 58px;
+  }
+  
+  .mymodal .close:hover{
+    transform: rotate(180deg);
+  }
+  
+  h3{
+    margin-top:0;
+  }
+  
+  @media(max-width:550px){
+    .mymodal .content{
+      width:90%;
+      margin-top: 5px;
+      height:90%;
+    }
+  }
+  .search_img
+{
+    width: 45px;
+}
+.search_name
+{
+    position: absolute;
+    margin-top: -57px;
+    left: 90px;
+    font-size: 18px;
+    color: white;
+}

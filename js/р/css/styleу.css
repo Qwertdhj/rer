@@ -1,0 +1,237 @@
+*
+{
+    margin: 0;
+    left: 0;
+    top: 0;
+    padding: 0;
+}
+body {
+    background: #0E0E0E;
+    background-attachment: fixed;  
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 20px;
+    
+  }
+  .Losox_box_1
+  {
+    width: 90%;
+    top: 45px;
+    position: absolute;
+    box-shadow: 0 0 10px rgb(0 0 0);
+    height: 500px;
+    left: 5%;
+    border-radius: 20px;
+  }
+  .Losox_box_1 img
+  {
+    width: 821px;
+    border-radius: 20px;
+    transition: 0.3s;
+  }
+  .Losox_box_1 img:hover
+  {
+    transform: scale(1.02);
+  }
+  .Losox_box_2 {
+    height: 160px;
+    width: 160px;
+    box-shadow: 0 0 10px rgb(0 0 0);
+    border-radius: 30px;
+    top: 96px;
+    transition: 0.3s;
+    position: absolute;
+    margin-left: 855px;
+    background: #0E0E0E;
+}
+    .Losox_box_3
+{   
+    box-shadow: 0 0 10px rgb(0 0 0);
+    height: 160px;
+    width: 160px;
+    border-radius: 30px;
+    top: 96px;
+    transition: 0.3s;
+    position: absolute;
+    margin-left: 1040px;
+    background: #0E0E0E;
+}
+    .Losox_box_4
+{
+    height: 160px;
+    width: 160px;
+    border-radius: 30px;
+    top: 285px;
+    position: absolute;
+    margin-left: 855px;
+    transition: 0.3s;
+    background: #0E0E0E;
+    box-shadow: 0 0 10px rgb(0 0 0);
+}
+.Losox_box_5
+{
+    height: 160px;
+    width: 160px;
+    border-radius: 30px;
+    top: 285px;
+    position: absolute;
+    margin-left: 1040px;
+    transition: 0.3s;
+    background: #0E0E0E;
+    box-shadow: 0 0 10px rgb(0 0 0);
+}
+.Losox_box_2:hover,
+.Losox_box_3:hover,
+.Losox_box_4:hover,
+.Losox_box_5:hover{transform: scale(1.1);}
+.Losox_box_name
+{
+    font-weight: initial;
+    position: absolute;
+    top: 5px;
+    font-size: 46px;
+    margin-left: 882px;
+    color: white;
+}
+.Losox_box_circle
+{
+    width: 90px;
+    height: 90px;
+    background: #59ff00;
+    border-radius: 100px;
+    margin-left: 35px;
+    margin-top: 35px;
+}
+.Losox_box_circle_3
+{
+    width: 90px;
+    height: 90px;
+    background: #77ff00;
+    border-radius: 100px;
+    margin-left: 35px;
+    margin-top: 35px;
+}
+.Losox_box_circle_4
+{
+    width: 90px;
+    height: 90px;
+    background: #00ff00;
+    border-radius: 100px;
+    margin-left: 35px;
+    margin-top: 35px;
+}
+.Losox_box_circle_2
+{
+    width: 90px;
+    height: 90px;
+    background: #2c2c2c;
+    border-radius: 100px;
+    margin-left: 35px;
+    margin-top: 35px;
+}
+.Losox_box_circle_1-1
+{
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    border-radius: 100px;
+    background: #0e0e0e;
+    top: 43px;
+    left: 43px;
+}
+.Losox_box_circle_name
+{
+    color: white;
+    font-weight: bold;
+    left: 25%;
+    position: absolute;
+}
+.Losox_box_circle_1-1 p
+{
+    position:absolute;
+    left: 30%;
+    top: 30%;
+    font-size: 20   px;
+    font-weight: bold;
+    color: white
+}
+.Losox_box_6
+{
+    width: 160px;
+    height: 160px;
+    background: #1F1F1F;
+    transition: 0.3s;
+    margin-top: 585px;
+    border-radius: 30px;
+    position: absolute;
+    margin-left: 100px;
+}
+.Losox_box_7
+{
+    width: 160px;
+    height: 160px;
+    background: #1F1F1F;
+    transition: 0.3s;
+    margin-top: 585px;
+    border-radius: 30px;
+    position: absolute;
+    margin-left: 100px;
+}
+.Losox_box_8
+{
+    width: 160px;
+    height: 160px;
+    background: #1F1F1F;
+    transition: 0.3s;
+    margin-top: 585px;
+    border-radius: 30px;
+    position: absolute;
+    margin-left: 100px;
+}
+.Losox_box_9
+{
+    width: 160px;
+    height: 160px;
+    background: #1F1F1F;
+    transition: 0.3s;
+    margin-top: 585px;
+    border-radius: 30px;
+    position: absolute;
+    margin-left: 100px;
+}
+.Losox_box_10
+{
+    width: 160px;
+    height: 160px;
+    background: #1F1F1F;
+    transition: 0.3s;
+    margin-top: 585px;
+    border-radius: 30px;
+    position: absolute;
+    margin-left: 100px;
+}
+.Losox_box_11
+{
+    width: 160px;
+    height: 160px;
+    background: #1F1F1F;
+    transition: 0.3s;
+    margin-top: 585px;
+    border-radius: 30px;
+    position: absolute;
+    margin-left: 100px;
+}
+.Losox_box_12
+{
+    width: 160px;
+    height: 160px;
+    background: #1F1F1F;
+    transition: 0.3s;
+    margin-top: 585px;
+    border-radius: 30px;
+    position: absolute;
+    margin-left: 100px;
+}
